@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img class = "devmatthew_img" src="img/devmatthew.png" alt="text: devmatthew" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro portfolio-intro">
+      <h1 class="section__title section__title--intro">
+        Unusual places<br />in the world.<strong>web site</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">React.js, Leaflet</p>
+      <img src="img/unusual-places-in-the-world-2.png" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <div>
+        <a class="" target="_blank" href="https://github.com/Matitzo/Unusual-places-in-the-world"
+          ><i class="fab fa-github"></i> GitHub Repo</a
+        >
+        </a>
+        <a class="" target="_blank" href="https://matitzo.github.io/Unusual-places-in-the-world/"
+          ><i class="fas fa-eye"></i> Live version
+        </a>
+      </div>
+      <p>
+        The site depicts unusual places on earth that most people are unaware of. It was created using React.js and Leaflet libraries.
+      </p>
+      <p>
+        A feature of the site is the ability to view the location of listed places using an interactive map. The map updates its own view as the article reader progresses.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:matitzo@o2.pl" class="footer__link">matitzo@o2.pl</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/mateusz-czyrzniak-6b81ab231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B01mPsOUUTLW1%2B9enx9i6rQ%3D%3D">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Matitzo">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

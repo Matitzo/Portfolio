@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          class="devmatthew_img"
+          src="img/devmatthew.png"
+          alt="text: devmatthew"
+        />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro portfolio-intro">
+      <h1 class="section__title section__title--intro">
+        Personal<br />dashboard<strong>plug-in</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">JS, HTML, CSS</p>
+      <img src="img/personal-dashboard.png" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <div>
+        <a
+          class=""
+          target="_blank"
+          href="https://github.com/Matitzo/Personal-dashboard-plug-in"
+          ><i class="fab fa-github"></i> GitHub Repo</a
+        >
+      </div>
+      <p>
+        Personal dahsboard is a browser plug-in. The application is based on
+        three api. One to generate a random background for the app, another to
+        retrieve current dogecoin price data, and a third used to retrieve
+        temperature data for the current location.
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:matitzo@o2.pl" class="footer__link">matitzo@o2.pl</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/mateusz-czyrzniak-6b81ab231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B01mPsOUUTLW1%2B9enx9i6rQ%3D%3D"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Matitzo">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
